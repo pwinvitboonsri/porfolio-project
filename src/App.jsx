@@ -24,10 +24,10 @@ function App() {
         <h2>Experience</h2>
         <div className="job">
           <h3>Front-end / Back-end Developer</h3>
-          <p className="meta">Sep 2023 – Jul 2024 &bull; Kenlogio</p>
+          <p className="meta">Sep 2023 – Jul 2024 &bull; KENGSOB</p>
           <ul>
             <li>
-              Developed "Kenlogio", an online platform with Pre-Test and Real-Time Exam features used by
+              Developed "KENGSOB", an online platform with Pre-Test and Real-Time Exam features used by
               thousands of students.
             </li>
             <li>
