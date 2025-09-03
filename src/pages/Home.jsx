@@ -32,7 +32,7 @@ function Home() {
         <h2>Popular Projects</h2>
         <div className="card-grid">
           <div className="card">
-            <h3>Kenlogio Platform</h3>
+            <h3>Kengsob Platform</h3>
             <p>Online exam system used by thousands of students.</p>
           </div>
           <div className="card">
