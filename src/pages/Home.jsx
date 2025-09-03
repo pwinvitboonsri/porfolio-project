@@ -1,5 +1,7 @@
 import './Home.css';
 
+import { TechWithIcon } from '../techIcons';
+
 function Home() {
   return (
     <>
@@ -31,10 +33,21 @@ function Home() {
       <section className="stack">
         <h2>Tech Stack</h2>
         <div className="stack-list">
-          {['React', 'Next.js', 'Redux', 'Tailwind CSS', 'MUI', 'Node.js', 'Docker', 'Jenkins', 'AWS', 'Nginx', 'Route 53'].map((tech) => (
-            <span className="stack-item" key={tech}>
-              {tech}
-            </span>
+          {[
+            'React',
+            'Next.js',
+            'Redux',
+            'Tailwind CSS',
+            'MUI',
+            'Node.js',
+            'Docker',
+            'Jenkins',
+            'AWS',
+            'Nginx',
+            'Route 53',
+          ].map((tech) => (
+            <TechWithIcon key={tech} name={tech} />
+
           ))}
         </div>
       </section>
