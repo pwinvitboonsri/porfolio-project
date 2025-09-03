@@ -1,4 +1,5 @@
 import './Home.css';
+
 import { TechWithIcon } from '../techIcons';
 
 function Home() {
@@ -46,6 +47,7 @@ function Home() {
             'Route 53',
           ].map((tech) => (
             <TechWithIcon key={tech} name={tech} />
+
           ))}
         </div>
       </section>
