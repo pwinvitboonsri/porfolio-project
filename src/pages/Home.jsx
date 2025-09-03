@@ -5,19 +5,19 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Learning skills for a better career</h1>
-          <p className="subtitle">Bwinvit Boonsri — full-stack developer building useful digital products.</p>
+          <h1>Bwinvit Boonsri</h1>
+          <p className="subtitle"><span style={{ fontStyle: "italic", fontWeight: "lighter"}}>full-stack</span> developer building useful digital products.</p>
           <div className="stats">
             <div className="card">
-              <span>2+</span>
+              <span style={{ marginRight: ".25rem"}}>4+</span>
               <small>Years Experience</small>
             </div>
             <div className="card">
-              <span>10+</span>
+              <span style={{ marginRight: ".25rem"}}>10+</span>
               <small>Projects</small>
             </div>
             <div className="card">
-              <span>5+</span>
+              <span style={{ marginRight: ".25rem"}}>5+</span>
               <small>Technologies</small>
             </div>
           </div>
@@ -32,7 +32,7 @@ function Home() {
         <h2>Popular Projects</h2>
         <div className="card-grid">
           <div className="card">
-            <h3>Kenlogio Platform</h3>
+            <h3>Kengsob Platform</h3>
             <p>Online exam system used by thousands of students.</p>
           </div>
           <div className="card">
