@@ -1,5 +1,6 @@
 .job {
   margin-bottom: 2rem;
+  padding: 1.5rem;
 }
 
 .job h3 {
@@ -8,8 +9,8 @@
 
 .job .meta {
   font-size: 0.9rem;
-  color: #aaa;
-  margin-bottom: 0.5rem;
+  color: var(--muted-color);
+  margin-bottom: 0.75rem;
 }
 
 .job ul {

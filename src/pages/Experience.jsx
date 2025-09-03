@@ -4,7 +4,8 @@ function Experience() {
   return (
     <section>
       <h2>Experience</h2>
-      <div className="job">
+      <div className="job card">
+
         <h3>Front-end / Back-end Developer</h3>
         <p className="meta">Sep 2023 – Jul 2024 &bull; Kenlogio</p>
         <ul>
@@ -13,7 +14,7 @@ function Experience() {
           <li>Created a dynamic exam timer and pages for pre-test and real-time exam modules.</li>
         </ul>
       </div>
-      <div className="job">
+      <div className="job card">
         <h3>Freelance Developer</h3>
         <p className="meta">May 2020 – Sep 2021</p>
         <ul>
