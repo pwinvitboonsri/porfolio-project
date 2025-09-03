@@ -7,6 +7,8 @@ const EXPERIENCES = {
     company: 'KengSob',
     role: 'Front-end / Back-end Developer',
     period: 'Sep 2023 – Jul 2024',
+    stack: ['React', 'Next.js', 'Redux', 'Tailwind', 'MUI', 'Docker', 'Jenkins', 'AWS', 'Nginx', 'Route 53'],
+
     highlightTitle: '🚀 Highlights & Achievements',
     highlights: [
       'Enterprise-scale performance: Successfully handled 3,000–4,000 concurrent users during peak periods, with infrastructure designed to scale to 10,000+ users without downtime.',
@@ -25,6 +27,8 @@ const EXPERIENCES = {
     company: 'Hitachi eBworx',
     role: 'Software Engineer',
     period: 'Aug 2022 – Aug 2023',
+    stack: ['React', 'Jenkins', 'GitLab', 'Red Hat', 'Jira', 'Scrum'],
+
     highlightTitle: '🚀 Key Contributions & Projects',
     highlights: [
       'OCBC Loan Transaction System: Migrated a legacy loan management system into React-based micro frontends, enabling modular development and smoother long-term maintenance while ensuring zero disruption to existing services.',
@@ -42,6 +46,8 @@ const EXPERIENCES = {
     company: 'Freelance',
     role: 'Freelance Developer',
     period: 'May 2020 – Sep 2021',
+    stack: ['Next.js', 'React', 'Node.js', 'Tailwind', 'Flutter', 'Python'],
+
     highlightTitle: 'Projects',
     highlights: [
       'Built web and mobile applications for small businesses and individual clients using Next.js, React, Node.js, Tailwind, Flutter, and Python.',
@@ -75,6 +81,14 @@ function Experience() {
           {exp.role} — {exp.company}
         </h3>
         <p className="meta">{exp.period}</p>
+        <h4>Tech Stack</h4>
+        <div className="stack-list">
+          {exp.stack.map((item) => (
+            <span className="stack-item" key={item}>
+              {item}
+            </span>
+          ))}
+        </div>
         <h4>{exp.highlightTitle}</h4>
         <ul>
           {exp.highlights.map((item, i) => (

@@ -28,11 +28,21 @@ function Home() {
           className="hero-image"
         />
       </section>
+      <section className="stack">
+        <h2>Tech Stack</h2>
+        <div className="stack-list">
+          {['React', 'Next.js', 'Redux', 'Tailwind CSS', 'MUI', 'Node.js', 'Docker', 'Jenkins', 'AWS', 'Nginx', 'Route 53'].map((tech) => (
+            <span className="stack-item" key={tech}>
+              {tech}
+            </span>
+          ))}
+        </div>
+      </section>
       <section className="projects">
         <h2>Popular Projects</h2>
         <div className="card-grid">
           <div className="card">
-            <h3>Kengsob Platform</h3>
+            <h3>Kenlogio Platform</h3>
             <p>Online exam system used by thousands of students.</p>
           </div>
           <div className="card">
