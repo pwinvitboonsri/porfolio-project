@@ -5,6 +5,7 @@ function Experience() {
     <section>
       <h2>Experience</h2>
       <div className="job card">
+
         <h3>Front-end / Back-end Developer</h3>
         <p className="meta">Sep 2023 – Jul 2024 &bull; Kenlogio</p>
         <ul>
