@@ -1,3 +1,4 @@
+
 .tabs {
   display: flex;
   gap: 1rem;
@@ -37,12 +38,10 @@
   color: var(--muted-color);
   margin-bottom: 0.75rem;
 }
-
 .job h4 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
-
 .job ul {
   list-style: disc;
   margin-left: 1.25rem;
