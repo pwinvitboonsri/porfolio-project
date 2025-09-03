@@ -5,19 +5,19 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Bwinvit Boonsri</h1>
-          <p className="subtitle"><span style={{ fontStyle: "italic", fontWeight: "lighter"}}>full-stack</span> developer building useful digital products.</p>
+          <h1>Learning skills for a better career</h1>
+          <p className="subtitle">Bwinvit Boonsri — full-stack developer building useful digital products.</p>
           <div className="stats">
             <div className="card">
-              <span style={{ marginRight: ".25rem"}}>4+</span>
+              <span>2+</span>
               <small>Years Experience</small>
             </div>
             <div className="card">
-              <span style={{ marginRight: ".25rem"}}>10+</span>
+              <span>10+</span>
               <small>Projects</small>
             </div>
             <div className="card">
-              <span style={{ marginRight: ".25rem"}}>5+</span>
+              <span>5+</span>
               <small>Technologies</small>
             </div>
           </div>

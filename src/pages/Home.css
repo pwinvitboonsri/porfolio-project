@@ -28,8 +28,7 @@
 .stats .card {
   padding: 1rem 1.25rem;
   text-align: center;
-  display: flex;
-  align-items: center;
+
 }
 
 .stats span {
