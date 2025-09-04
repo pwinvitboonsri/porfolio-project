@@ -65,3 +65,20 @@
 .card-grid p {
   color: var(--muted-color);
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+}
