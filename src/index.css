@@ -33,6 +33,7 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  min-width: 360px;
 }
 
 a {
@@ -67,6 +68,7 @@ a {
 .stack-item svg {
   width: 1em;
   height: 1em;
+
 
 }
 

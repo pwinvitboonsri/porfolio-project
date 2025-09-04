@@ -85,6 +85,20 @@ import {
   FaFileDownload,
 } from 'react-icons/fa';
 
+function Contact() {
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/CV.pdf';
+    link.download = 'CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (
+    <section className="contact-section">
+=======
+
 const PHONE_DISPLAY = '+66 95 959 9908';
 const PHONE_TEL = '+66959599908';
 const EMAIL = 'pwinvitboonsri@gmail.com';
@@ -107,34 +121,38 @@ export default function Contact() {
 
   return (
     <section className="contact-section" id="contact">
+
       <h2>Contact</h2>
 
       <div className="card contact-card">
         <ul className="contact-list">
           <li>
             <FaPhoneAlt aria-hidden="true" />
+
             <a href={`tel:${PHONE_TEL}`}>{PHONE_DISPLAY}</a>
+
           </li>
 
           <li>
             <FaEnvelope aria-hidden="true" />
-            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            <a href="mailto:bwinsupport@gmail.com">bwinsupport@gmail.com</a>
+
           </li>
 
           <li>
             <FaLinkedin aria-hidden="true" />
-            <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/bwinvit" target="_blank" rel="noreferrer">
+
               linkedin.com/in/bwinvit
             </a>
           </li>
 
           <li>
             <FaGithub aria-hidden="true" />
-            <a href={GITHUB} target="_blank" rel="noopener noreferrer">
-              github.com/pwinvitboonsri
+            <a href="https://github.com/bwinvit" target="_blank" rel="noreferrer">
+              github.com/bwinvit
             </a>
           </li>
-
           <li>
             <FaMapMarkerAlt aria-hidden="true" />
             <span>Bangkok, Thailand</span>
@@ -150,8 +168,10 @@ export default function Contact() {
             <button type="button" onClick={handleDownloadCV}>
               Download CV
             </button>
+
             {/* Or no JS needed:
                <a href={cvUrl} download="CV.pdf">Download CV</a> */}
+
           </li>
         </ul>
 

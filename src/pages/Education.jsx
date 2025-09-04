@@ -1,5 +1,6 @@
 import './Education.css';
 
+
 const education = [
   {
     id: 'tni-2022',
