@@ -1,6 +1,6 @@
 import './Education.css';
 
-const Education = [
+const education = [
   {
     id: 'tni-2022',
     title:
@@ -18,7 +18,7 @@ const Education = [
   },
 ];
 
-export default function Education() {
+function Education() {
   return (
     <section className="education-section" id="education">
       <h2>Education</h2>
