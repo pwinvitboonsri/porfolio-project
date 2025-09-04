@@ -1,31 +1,63 @@
 import './Contact.css';
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+  FaMapMarkerAlt,
+  FaBriefcase,
+  FaFileDownload,
+} from 'react-icons/fa';
 
 function Contact() {
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/CV.pdf';
+    link.download = 'CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <section>
+    <section className="contact-section">
       <h2>Contact</h2>
       <div className="card contact-card">
         <ul className="contact-list">
           <li>
-            Phone: <a href="tel:+66939699563">+66 93 969 9563</a>
+            <FaPhoneAlt aria-hidden="true" />
+            <a href="tel:+66939699563">+66 93 969 9563</a>
           </li>
           <li>
-            Email: <a href="mailto:bwinsupport@gmail.com">bwinsupport@gmail.com</a>
+            <FaEnvelope aria-hidden="true" />
+            <a href="mailto:bwinsupport@gmail.com">bwinsupport@gmail.com</a>
           </li>
           <li>
-            LinkedIn:{' '}
+            <FaLinkedin aria-hidden="true" />
             <a href="https://www.linkedin.com/in/bwinvit" target="_blank" rel="noreferrer">
               linkedin.com/in/bwinvit
             </a>
           </li>
           <li>
-            GitHub:{' '}
+            <FaGithub aria-hidden="true" />
             <a href="https://github.com/bwinvit" target="_blank" rel="noreferrer">
               github.com/bwinvit
             </a>
           </li>
-          <li>Address: Bangkok, Thailand</li>
-          <li>Availability: Open for opportunities</li>
+          <li>
+            <FaMapMarkerAlt aria-hidden="true" />
+            <span>Bangkok, Thailand</span>
+          </li>
+          <li>
+            <FaBriefcase aria-hidden="true" />
+            <span>Open for opportunities</span>
+          </li>
+          <li>
+            <FaFileDownload aria-hidden="true" />
+            <button type="button" onClick={handleDownloadCV}>
+              Download CV
+            </button>
+          </li>
         </ul>
         <form className="contact-form">
           <input type="text" placeholder="Your Name" />
