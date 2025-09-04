@@ -6,9 +6,19 @@ import {
   FaGithub,
   FaMapMarkerAlt,
   FaBriefcase,
+  FaFileDownload,
 } from 'react-icons/fa';
 
 function Contact() {
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/CV.pdf';
+    link.download = 'CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="contact-section">
       <h2>Contact</h2>
@@ -43,6 +53,12 @@ function Contact() {
           <li>
             <FaBriefcase aria-hidden="true" />
             <span>Open for opportunities</span>
+          </li>
+          <li>
+            <FaFileDownload aria-hidden="true" />
+            <button type="button" onClick={handleDownloadCV}>
+              Download CV
+            </button>
           </li>
         </ul>
         <form className="contact-form">

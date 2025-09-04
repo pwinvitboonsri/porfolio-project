@@ -19,6 +19,16 @@
   gap: 0.5rem;
 }
 
+.contact-list button {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+
+}
+
 .contact-form {
   flex: 1;
   display: flex;

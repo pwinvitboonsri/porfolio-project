@@ -1,6 +1,6 @@
 import './Education.css';
 
-const education = [
+const Education = [
   {
     id: 'tni-2022',
     title:
@@ -29,9 +29,13 @@ export default function Education() {
             <p className="school">{ed.school}</p>
             <p className="period">{ed.period}</p>
             {ed.details ? <p>{ed.details}</p> : null}
+
           </li>
         ))}
       </ul>
     </section>
   );
 }
+
+export default Education;
+
