@@ -7,7 +7,7 @@ const EXPERIENCES = {
   kengsob: {
     company: 'KengSob',
     role: 'Front-end / Back-end Developer',
-    period: 'Sep 2023 – Jul 2024',
+    period: 'June 2023 – Present',
     stack: ['React', 'Next.js', 'Redux', 'Tailwind', 'MUI', 'Docker', 'Jenkins', 'AWS', 'Nginx', 'Route 53'],
     highlightTitle: '🚀 Highlights & Achievements',
     highlights: [
@@ -26,7 +26,7 @@ const EXPERIENCES = {
   hitachi: {
     company: 'Hitachi eBworx',
     role: 'Software Engineer',
-    period: 'Aug 2022 – Aug 2023',
+    period: 'Jan 2022 – Jun 2023',
     stack: ['React', 'Jenkins', 'GitLab', 'Red Hat', 'Jira', 'Scrum'],
     highlightTitle: '🚀 Key Contributions & Projects',
     highlights: [
