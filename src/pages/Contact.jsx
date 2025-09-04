@@ -16,11 +16,13 @@ function Contact() {
         <ul className="contact-list">
           <li>
             <FaPhoneAlt aria-hidden="true" />
+
             <a href="tel:+66939699563">+66 95 959 9908</a>
           </li>
           <li>
             <FaEnvelope aria-hidden="true" />
             <a href="mailto:bwinsupport@gmail.com">pwinvitboonsri@gmail.com</a>
+
           </li>
           <li>
             <FaLinkedin aria-hidden="true" />
