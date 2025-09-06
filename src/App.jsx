@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import Experience from './pages/Experience.jsx';
 import Education from './pages/Education.jsx';
 import Contact from './pages/Contact.jsx';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </BrowserRouter>
   );
 }
