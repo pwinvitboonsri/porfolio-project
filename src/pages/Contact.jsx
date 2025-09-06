@@ -8,6 +8,7 @@ import {
   FaBriefcase,
   FaFileDownload,
 } from 'react-icons/fa';
+import { track } from '@vercel/analytics';
 
 const PHONE_DISPLAY = '+66 95 959 9908';
 const PHONE_TEL = '+66959599908';
@@ -21,6 +22,7 @@ const cvUrl = `${base}CV.pdf`; // file must be at: /public/CV.pdf
 
 export default function Contact() {
   const handleDownloadCV = () => {
+    track('download_cv');
     const a = document.createElement('a');
     a.href = cvUrl;
     a.download = 'CV.pdf';
